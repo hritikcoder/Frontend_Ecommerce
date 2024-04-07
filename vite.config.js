@@ -7,10 +7,7 @@ export default defineConfig({
   server:{
     proxy: {
 
-      // "/api/":"https://e-commerce-mern-zzpm.onrender.com/"
-
-
-     "/api/": "http://localhost:5000",
+      "/api/":"https://e-commerce-mern-zzpm.onrender.com/"
    
     }
   }
